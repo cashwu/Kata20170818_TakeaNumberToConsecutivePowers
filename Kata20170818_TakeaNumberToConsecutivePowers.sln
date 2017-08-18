@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata20170818_TakeaNumberToConsecutivePowers", "Kata20170818_TakeaNumberToConsecutivePowers\Kata20170818_TakeaNumberToConsecutivePowers.csproj", "{8306B52D-01DF-4ADB-B2B2-F493B06DEBAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8306B52D-01DF-4ADB-B2B2-F493B06DEBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8306B52D-01DF-4ADB-B2B2-F493B06DEBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8306B52D-01DF-4ADB-B2B2-F493B06DEBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8306B52D-01DF-4ADB-B2B2-F493B06DEBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08000568-11BF-4DD0-8E4B-C542445A0467}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 08000568-11bf-4dd0-8e4b-c542445a0467
+	EndGlobalSection
+EndGlobal
