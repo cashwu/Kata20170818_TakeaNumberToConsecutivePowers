@@ -21,6 +21,36 @@ namespace Kata20170818_TakeaNumberToConsecutivePowers
             SumDigPowerShouldBe(new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 89 }, 1, 100);
         }
 
+        [TestMethod]
+        public void input_10_100()
+        {
+            SumDigPowerShouldBe(new long[] { 89 }, 10, 100);
+        }
+
+        [TestMethod]
+        public void input_90_100()
+        {
+            SumDigPowerShouldBe(new long[] {}, 90, 100);
+        }
+
+        [TestMethod]
+        public void input_90_150()
+        {
+            SumDigPowerShouldBe(new long[] { 135 }, 90, 150);
+        }
+
+        [TestMethod]
+        public void input_50_150()
+        {
+            SumDigPowerShouldBe(new long[] { 89, 135 }, 89, 150);
+        }
+
+        [TestMethod]
+        public void input_10_150()
+        {
+            SumDigPowerShouldBe(new long[] { 89, 135 }, 10, 150);
+        }
+
         private static void SumDigPowerShouldBe(long[] expected, int a, int b)
         {
             var actual = new SumDigPower().SumDigPow(a, b);
