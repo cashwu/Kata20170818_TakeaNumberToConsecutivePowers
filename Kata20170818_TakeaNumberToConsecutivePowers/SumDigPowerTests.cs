@@ -66,9 +66,7 @@ namespace Kata20170818_TakeaNumberToConsecutivePowers
 
             for (var i = a; i <= b; i++)
             {
-                var sumOfPow = i.ToString().ToCharArray().Select((n, idx) => Math.Pow(int.Parse(n.ToString()), idx + 1)).Sum();
-
-                if (sumOfPow == i)
+                if (i.ToString().Select((n, idx) => Math.Pow(char.GetNumericValue(n), idx + 1)).Sum() == i)
                 {
                     result.Add(i);
                 }
